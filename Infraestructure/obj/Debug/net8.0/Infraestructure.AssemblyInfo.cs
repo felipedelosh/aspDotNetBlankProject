@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("aspDotNetBlankProject")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Infraestructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e63e80b96dc824c67740c0a1a2c2dd213fb0206b")]
-[assembly: System.Reflection.AssemblyProductAttribute("aspDotNetBlankProject")]
-[assembly: System.Reflection.AssemblyTitleAttribute("aspDotNetBlankProject")]
+[assembly: System.Reflection.AssemblyProductAttribute("Infraestructure")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Infraestructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
