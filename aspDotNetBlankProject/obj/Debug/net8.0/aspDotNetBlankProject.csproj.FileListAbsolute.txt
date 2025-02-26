@@ -30,3 +30,4 @@ C:\Users\docto\source\repos\aspDotNetBlankProject\aspDotNetBlankProject\obj\Debu
 C:\Users\docto\source\repos\aspDotNetBlankProject\aspDotNetBlankProject\obj\Debug\net8.0\aspDotNetBlankProject.pdb
 C:\Users\docto\source\repos\aspDotNetBlankProject\aspDotNetBlankProject\obj\Debug\net8.0\aspDotNetBlankProject.genruntimeconfig.cache
 C:\Users\docto\source\repos\aspDotNetBlankProject\aspDotNetBlankProject\obj\Debug\net8.0\ref\aspDotNetBlankProject.dll
+C:\Users\docto\source\repos\aspDotNetBlankProject\aspDotNetBlankProject\obj\Debug\net8.0\aspDotNetBlankProject.sourcelink.json
