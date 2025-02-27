@@ -11,6 +11,10 @@ namespace MyFirstAPI.Infraestructure
 
         }
 
+        public PersitenceContext()
+        {
+        }
+
         //Mapers
         public DbSet<Example> examples { get; set; }
 
