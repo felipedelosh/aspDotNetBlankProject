@@ -12,7 +12,7 @@ namespace MyFirstAPI.Infraestructure
         }
 
         //Mapers
-        public DbSet<Example> Persons { get; set; }
+        public DbSet<Example> examples { get; set; }
 
         //Create entity in DB
         protected override void OnModelCreating(ModelBuilder builder)
