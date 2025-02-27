@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "aspDotNetBlankProject", "aspDotNetBlankProject\aspDotNetBlankProject.csproj", "{31AED07E-AF70-445D-B124-4DD096337922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "aspDotNetBlankProject", "aspDotNetBlankProject\aspDotNetBlankProject.csproj", "{31AED07E-AF70-445D-B124-4DD096337922}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementos de la solución", "Elementos de la solución", "{2F4423FB-B6D9-4707-A42E-A5E9F96B79FA}"
 	ProjectSection(SolutionItems) = preProject
@@ -15,11 +15,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{96AC2211-5
 		info.md = info.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{9D803133-D1B3-46AF-8F46-B7A1775D24DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{9D803133-D1B3-46AF-8F46-B7A1775D24DF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infraestructure", "Infraestructure\Infraestructure.csproj", "{E47D9EED-47E8-4A71-9AD8-D8A49E7649D5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infraestructure\Infrastructure.csproj", "{E47D9EED-47E8-4A71-9AD8-D8A49E7649D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{BF372724-041E-463D-A962-F4AB88A4615A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{BF372724-041E-463D-A962-F4AB88A4615A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

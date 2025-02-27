@@ -1,1 +1,104 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# ASP.NET files
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.vscode
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# VS Code files
 .vs/
+.vscode/
+.vscode/settings.json
+
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# Dependency directories
+packages/
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono auto generated files
+mono_crash.*
+
+# NuGet
+*.nupkg
+# The packages folder can be ignored because of NuGet restore
+**/packages/*
+# except build/, which is used as an MSBuild target.
+!**/packages/build/
+# Uncomment if necessary however generally it will be regenerated when needed
+#!**/packages/repositories.config
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Azure DevOps Server workspace directories
+$tf/
+# Azure DevOps Server local workspace cache directories
+.tf/
+
+# SQL Server files
+*.mdf
+*.ldf
+
+# Local History for Visual Studio
+.localhistory
+
+# Windows 10 specific
+*.awcache
+*.tvsdklogs
+
+# Windows 11 specific
+FileHistory/
+
