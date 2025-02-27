@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\Infraestructure.csproj",
-      "projectName": "Infraestructure",
-      "projectPath": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\Infraestructure.csproj",
+      "projectUniqueName": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\Infrastructure.csproj",
+      "projectName": "Infrastructure",
+      "projectPath": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\docto\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\obj\\",
       "projectStyle": "PackageReference",
