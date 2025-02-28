@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace MyFirstAPI.Controllers
+namespace aspDotNetBlankProject.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

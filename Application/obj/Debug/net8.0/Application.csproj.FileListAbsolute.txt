@@ -10,3 +10,7 @@ C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\A
 C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\refint\Application.dll
 C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\Application.pdb
 C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\ref\Application.dll
+C:\Users\docto\source\repos\aspDotNetBlankProject\Application\bin\Debug\net8.0\Domain.dll
+C:\Users\docto\source\repos\aspDotNetBlankProject\Application\bin\Debug\net8.0\Domain.pdb
+C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\Application.csproj.AssemblyReference.cache
+C:\Users\docto\source\repos\aspDotNetBlankProject\Application\obj\Debug\net8.0\Applicat.44B5EDA2.Up2Date

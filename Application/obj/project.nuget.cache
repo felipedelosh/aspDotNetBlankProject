@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "BNMRVWXwmnw=",
+  "dgSpecHash": "UtqJM9WbzAI=",
   "success": true,
   "projectFilePath": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Application\\Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\docto\\.nuget\\packages\\mediatr\\12.4.1\\mediatr.12.4.1.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\docto\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjectionfixed\\5.1.2\\mediatr.extensions.microsoft.dependencyinjectionfixed.5.1.2.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
   ],
   "logs": []

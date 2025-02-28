@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿
+using Domain.Services;
+using Domain.Entities;
+using Application.Example.Commands;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +14,56 @@ namespace aspDotNetBlankProject.Controllers
     [ApiController]
     public class ExampleController : ControllerBase
     {
-        // GET: api/<ExampleController>
+
+        private readonly ExampleService _service;
+        private readonly IMediator _mediator;
+
+        public ExampleController(ExampleService service, IMediator mediator)
+        {
+            _service = service;
+            _mediator = mediator;
+        }
+        // GET: api/<PersonController>
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<List<Example>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return await _service.Get();
         }
 
-        // GET api/<ExampleController>/5
+        // GET api/<PersonController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<ActionResult<Example>> Get(int id)
         {
-            return "value";
+            Example person = await _service.Get(id);
+
+            if (person == null)
+            {
+                return NotFound();
+            }
+
+            return person;
         }
 
-        // POST api/<ExampleController>
+        // POST api/<PersonController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public async Task<ActionResult<int>> Post([FromBody] CommandCreateExample request)
         {
+            return await _mediator.Send(new CommandCreateExample(request.Title, request.Description, request.Information, request.IsDeleted));
         }
 
-        // PUT api/<ExampleController>/5
+        // PUT api/<PersonController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public async Task<ActionResult<Example>> Put([FromBody] Example example)
         {
+            return await _service.Edit(example);
         }
 
-        // DELETE api/<ExampleController>/5
+        // DELETE api/<PersonController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<ActionResult> Delete(int id)
         {
+            await _service.Delete(id);
+            return NoContent();
         }
     }
 }
