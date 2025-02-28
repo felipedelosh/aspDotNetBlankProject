@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gDX0igcnml0=",
+  "dgSpecHash": "5lfCGXjWVBI=",
   "success": true,
   "projectFilePath": "C:\\Users\\docto\\source\\repos\\aspDotNetBlankProject\\Infraestructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\docto\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\docto\\.nuget\\packages\\dapper\\2.1.66\\dapper.2.1.66.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\docto\\.nuget\\packages\\microsoft.data.sqlclient\\5.1.1\\microsoft.data.sqlclient.5.1.1.nupkg.sha512",
