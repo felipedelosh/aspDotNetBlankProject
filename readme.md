@@ -2,7 +2,7 @@
 <br>
 <h4>aspDotNetBlankProject</h4>
 
-![Banner](docs/banner.png)
+![Banner](Docs/banner.png)
 :construction: In construction :construction:
 <br><br>
 This project is an implementation of a **Hexagonal Architecture** using **CQRS (Command Query Responsibility Segregation)** in **ASP.NET Core**. The architecture is divided into three main layers:
@@ -29,10 +29,12 @@ Press Play Button
 
 - asp.NET
 - C#
+- Dependency Injection
 - Dapper
 - MediatR
-- MSEntityFrameworkCore.
+- MSEntityFrameworkCore
 - CQRS
+- SQLServer
 
 ## :warning:Warning.
 
