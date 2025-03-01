@@ -1,0 +1,2 @@
+1 -> Implementar CORS.
+2 -> Habilitar el CQRS para ejemplo: query con entity framework y command con dapper.
