@@ -22,8 +22,7 @@ This project is an implementation of a **Hexagonal Architecture** using **CQRS (
 
 ## :play_or_pause_button:How to execute a project
 
-Install PK NuGets
-Press Play Button
+Install PK NuGets & Press Play Button
 
 ## :hammer_and_wrench:Tech.
 
