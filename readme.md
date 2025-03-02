@@ -7,6 +7,8 @@
 <br><br>
 This project is an implementation of a **Hexagonal Architecture** using **CQRS (Command Query Responsibility Segregation)** in **ASP.NET Core**. The architecture is divided into three main layers:
 
+![Architecture](Docs/Architecture.png)
+
 - **Domain**: Contains business logic, domain entities, and service interfaces.
 - **Application**: Implements use cases using the CQRS pattern with **MediatR**, including commands and queries.
 - **Infrastructure**: Handles database interactions, repositories, and external dependencies using **Entity Framework Core**.
