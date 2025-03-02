@@ -15,7 +15,7 @@ This project is an implementation of a **Hexagonal Architecture** using **CQRS (
 
 ## :hammer:Funtions:
 
-- `Function 1`: Health ENPOINT: https://localhost:7044/api/Health<br>
+- `Function 1`: GET Health ENPOINT: https://localhost:7044/api/Health<br>
 - `Function 2`: GET ALL EXAMPLES: https://localhost:7044/api/Example<br>
 - `Function 3`: GET EXAMPLE BY ID: https://localhost:7044/api/Example/{id}<br>
 - `Function 4`: PUT EXAMPLE: https://localhost:7044/api/Example<br>
